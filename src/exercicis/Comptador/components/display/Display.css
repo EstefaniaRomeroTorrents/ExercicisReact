@@ -1,0 +1,39 @@
+.div_Input {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  /*border: white 1px solid;
+  border-radius: 5px;*/
+  padding: 10px;
+}
+input {
+  width: 91%;
+  height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+}
+.div_calc {
+  display: grid;
+  border: white solid 1px;
+  width: 42%;
+  border-radius: 5px;
+}
+.div_calc button {
+  width: 130px;
+  height: 85px;
+}
+.div_Input_button {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  /*border: white 1px solid;
+  border-radius: 5px;*/
+  padding: 10px;
+}
+button {
+  border-radius: 5px;
+  border-color: rgb(184, 168, 199);
+}
